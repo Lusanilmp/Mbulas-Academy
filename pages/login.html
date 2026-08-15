@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Log In | Mbula's Academy</title>
+<meta name="description" content="Log in to Mbula's Academy to access your lessons, past papers and dashboard.">
+<link rel="icon" type="image/png" href="../assets/images/mbulas-academy-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header" id="siteHeader">
+  <div class="header-inner container">
+    <a href="../index.html" class="brand">
+      <img src="../assets/images/mbulas-academy-logo.png" alt="Mbula's Academy" class="brand-logo">
+    </a>
+    <nav class="main-nav" id="mainNav" aria-label="Primary">
+      <a href="../index.html#about">About</a>
+      <a href="../index.html#subjects">Subjects</a>
+      <a href="../index.html#learning-hub">Learning Hub</a>
+      <a href="../index.html#tutoring">Tutoring</a>
+      <a href="../index.html#faq">FAQ</a>
+      <a href="../index.html#contact">Contact</a>
+    </nav>
+    <div class="header-actions">
+      <a href="register.html" class="btn btn-primary">Join the Academy</a>
+      <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="mainNav" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+  <div class="auth-shell">
+    <div class="auth-card">
+      <img src="../assets/images/mbulas-academy-icon.png" alt="" class="auth-logo" aria-hidden="true">
+      <h1>Welcome back</h1>
+      <p class="auth-lede">Log in to reach your Learning Hub, papers and dashboard.</p>
+
+      <div class="demo-banner">
+        <span aria-hidden="true">🚧</span>
+        <span><strong>Demo login.</strong> No password is actually checked yet — this only confirms you registered on this device. Real authentication ships with Supabase Auth in Phase 5.</span>
+      </div>
+
+      <form class="auth-form" id="loginForm" novalidate>
+        <div class="field-group">
+          <label for="loginEmail">Email Address</label>
+          <input type="email" id="loginEmail" name="email" autocomplete="email" required>
+          <p class="field-error" id="err-loginEmail" role="alert"></p>
+        </div>
+
+        <div class="field-group">
+          <label for="loginPassword">Password</label>
+          <input type="password" id="loginPassword" name="password" autocomplete="current-password" required>
+          <p class="field-error" id="err-loginPassword" role="alert"></p>
+        </div>
+
+        <div class="auth-links-row">
+          <label class="field-checkbox" style="align-items:center;">
+            <input type="checkbox" id="loginRemember" name="remember">
+            <span>Remember me</span>
+          </label>
+          <a href="#" id="forgotPasswordLink">Forgot password?</a>
+        </div>
+
+        <button type="submit" class="btn btn-primary auth-submit">Log In</button>
+        <p class="auth-status" id="loginStatus" role="status" aria-live="polite"></p>
+      </form>
+
+      <p class="auth-switch">New here? <a href="register.html">Join the Academy</a></p>
+    </div>
+  </div>
+</main>
+
+<script src="auth.js"></script>
+<script>
+  document.getElementById('forgotPasswordLink')?.addEventListener('click', (e) => {
+    e.preventDefault();
+    alert('Password reset isn\'t connected yet — this ships with Supabase Auth in Phase 5. For now, contact the academy directly via WhatsApp.');
+  });
+</script>
+</body>
+</html>

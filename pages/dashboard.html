@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dashboard | Mbula's Academy</title>
+<meta name="robots" content="noindex">
+<link rel="icon" type="image/png" href="../assets/images/mbulas-academy-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header" id="siteHeader">
+  <div class="header-inner container">
+    <a href="../index.html" class="brand">
+      <img src="../assets/images/mbulas-academy-logo.png" alt="Mbula's Academy" class="brand-logo">
+    </a>
+    <nav class="main-nav" id="mainNav" aria-label="Primary">
+      <a href="learning.html">Learning Hub</a>
+      <a href="classes.html">Classes</a>
+      <a href="resources.html">Resources</a>
+      <a href="payments.html">Payments</a>
+      <a href="profile.html">Profile</a>
+    </nav>
+    <div class="header-actions">
+      <button class="dash-logout" id="dashLogout" type="button">Log Out</button>
+      <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="mainNav" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+  <div id="dashRoot">
+    <div class="dash-header">
+      <div class="container dash-welcome">
+        <div>
+          <h1>Welcome back, <span id="dashName">Student</span> 👋</h1>
+          <p><span id="dashGrade">Grade 12</span> &middot; Mbula's Academy</p>
+        </div>
+        <span class="dash-status-pill dash-status-pending">Subscription: Not active (demo)</span>
+      </div>
+    </div>
+
+    <div class="container dash-grid">
+      <div class="dash-card">
+        <span class="dash-card-label">Current grade</span>
+        <h3 id="dashGradeCard">Grade 12</h3>
+        <p>Mathematics &middot; Physical Science &middot; Geography &middot; Life Sciences</p>
+      </div>
+      <div class="dash-card">
+        <span class="dash-card-label">Latest lesson</span>
+        <h3>Calculus: Rates of Change</h3>
+        <p>Demo content — real lessons arrive with the Learning Hub build-out.</p>
+      </div>
+      <div class="dash-card">
+        <span class="dash-card-label">Upcoming class</span>
+        <h3>Matric Upgrade &mdash; Mathematics</h3>
+        <p>Mon&ndash;Fri from 08:00, Old Christ The King Primary School.</p>
+      </div>
+      <div class="dash-card">
+        <span class="dash-card-label">Attendance</span>
+        <h3>&mdash;</h3>
+        <p>Not yet tracked. Attendance system ships in Phase 8 (admin dashboard).</p>
+      </div>
+      <div class="dash-card">
+        <span class="dash-card-label">My Payments</span>
+        <h3>No payments yet</h3>
+        <p>PayFast isn't connected. Payment history will appear here once it is.</p>
+      </div>
+      <div class="dash-card">
+        <span class="dash-card-label">Announcements</span>
+        <h3>Registration now open</h3>
+        <p>Grade 12 Matric Upgrade classes started 17 August 2026.</p>
+      </div>
+
+      <div class="dash-phase-note">
+        This is a Phase 7 placeholder so the login flow leads somewhere real.
+        The full dashboard (live data, search, notifications, subscription
+        status) is built once Supabase is connected.
+        <span class="placeholder-flag">[BACKEND NEEDED]</span>
+      </div>
+    </div>
+  </div>
+</main>
+
+<script src="auth.js"></script>
+</body>
+</html>

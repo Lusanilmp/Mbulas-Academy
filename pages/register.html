@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Join the Academy | Mbula's Academy</title>
+<meta name="description" content="Register for Mbula's Academy — Grade 8 to 12 Mathematics, Physical Science, Geography and Life Sciences.">
+<link rel="icon" type="image/png" href="../assets/images/mbulas-academy-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header" id="siteHeader">
+  <div class="header-inner container">
+    <a href="../index.html" class="brand">
+      <img src="../assets/images/mbulas-academy-logo.png" alt="Mbula's Academy" class="brand-logo">
+    </a>
+    <nav class="main-nav" id="mainNav" aria-label="Primary">
+      <a href="../index.html#about">About</a>
+      <a href="../index.html#subjects">Subjects</a>
+      <a href="../index.html#learning-hub">Learning Hub</a>
+      <a href="../index.html#tutoring">Tutoring</a>
+      <a href="../index.html#faq">FAQ</a>
+      <a href="../index.html#contact">Contact</a>
+    </nav>
+    <div class="header-actions">
+      <a href="login.html" class="btn btn-ghost">Log In</a>
+      <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="mainNav" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+  <div class="auth-shell">
+    <div class="auth-card">
+      <img src="../assets/images/mbulas-academy-icon.png" alt="" class="auth-logo" aria-hidden="true">
+      <h1>Join the Academy</h1>
+      <p class="auth-lede">Register for Grade 8&ndash;12 Maths &amp; Science lessons, past papers and tutoring.</p>
+
+      <div class="demo-banner">
+        <span aria-hidden="true">🚧</span>
+        <span><strong>Demo registration.</strong> This is Phase 4 frontend scaffolding — no server yet. Nothing leaves your browser, and your ID number and password are validated but never stored anywhere, not even locally.</span>
+      </div>
+
+      <form class="auth-form" id="registerForm" novalidate>
+        <div class="field-row-2">
+          <div class="field-group">
+            <label for="regFirstName">First Name</label>
+            <input type="text" id="regFirstName" name="firstName" autocomplete="given-name" required>
+            <p class="field-error" id="err-regFirstName" role="alert"></p>
+          </div>
+          <div class="field-group">
+            <label for="regLastName">Last Name</label>
+            <input type="text" id="regLastName" name="lastName" autocomplete="family-name" required>
+            <p class="field-error" id="err-regLastName" role="alert"></p>
+          </div>
+        </div>
+
+        <div class="field-group">
+          <label for="regIdNumber">South African ID Number</label>
+          <input type="text" id="regIdNumber" name="idNumber" inputmode="numeric" maxlength="13" placeholder="13 digits" required>
+          <p class="field-hint">Used to verify age and grade eligibility. Never shown publicly, never stored in this demo.</p>
+          <p class="field-error" id="err-regIdNumber" role="alert"></p>
+        </div>
+
+        <div class="field-group">
+          <label for="regEmail">Email Address</label>
+          <input type="email" id="regEmail" name="email" autocomplete="email" required>
+          <p class="field-error" id="err-regEmail" role="alert"></p>
+        </div>
+
+        <div class="field-group">
+          <label for="regPhone">Phone Number</label>
+          <input type="tel" id="regPhone" name="phone" autocomplete="tel" placeholder="071 234 5678" required>
+          <p class="field-error" id="err-regPhone" role="alert"></p>
+        </div>
+
+        <div class="field-group">
+          <label for="regGrade">Grade</label>
+          <select id="regGrade" name="grade" required>
+            <option value="">Select your grade</option>
+            <option>Grade 8</option><option>Grade 9</option><option>Grade 10</option>
+            <option>Grade 11</option><option>Grade 12</option>
+          </select>
+          <p class="field-error" id="err-regGrade" role="alert"></p>
+        </div>
+
+        <div class="field-group">
+          <label for="regPassword">Password</label>
+          <input type="password" id="regPassword" name="password" autocomplete="new-password" required>
+          <p class="field-hint">At least 8 characters, with a letter and a number.</p>
+          <p class="field-error" id="err-regPassword" role="alert"></p>
+        </div>
+
+        <div class="field-group">
+          <label for="regConfirm">Confirm Password</label>
+          <input type="password" id="regConfirm" name="confirmPassword" autocomplete="new-password" required>
+          <p class="field-error" id="err-regConfirm" role="alert"></p>
+        </div>
+
+        <div class="field-checkbox">
+          <input type="checkbox" id="regTerms" name="terms" required>
+          <label for="regTerms">I agree to the <a href="#">Privacy Policy</a> and <a href="#">Terms &amp; Conditions</a> <span class="placeholder-flag">[CONTENT NEEDED]</span></label>
+        </div>
+        <p class="field-error" id="err-regTerms" role="alert"></p>
+
+        <button type="submit" class="btn btn-primary auth-submit">Create Account</button>
+        <p class="auth-status" id="registerStatus" role="status" aria-live="polite"></p>
+      </form>
+
+      <p class="auth-switch">Already have an account? <a href="login.html">Log in</a></p>
+    </div>
+  </div>
+</main>
+
+<script src="auth.js"></script>
+</body>
+</html>
