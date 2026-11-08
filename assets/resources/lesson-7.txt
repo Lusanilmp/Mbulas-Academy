@@ -1,0 +1,27 @@
+MBULA'S ACADEMY | GRADE 9 | GEOGRAPHY
+Contour lines
+
+LEARNING GOAL
+Read the shape of the land
+
+REVISION NOTES
+Contours join points of equal height above sea level. Closely spaced lines indicate steep slopes; widely spaced lines indicate gentle slopes. The contour interval is the vertical difference between consecutive contour lines.
+
+WORKED EXAMPLE
+Contour heights are 100 m, 120 m and 140 m. Find the interval.
+The difference between consecutive lines is 20 m.
+
+TRY IT YOURSELF
+Which contour spacing usually indicates a steep slope?
+1. Wide spacing
+2. Close spacing
+3. Spacing is irrelevant
+
+ANSWER AND EXPLANATION
+Close spacing — A large height change over a short horizontal distance creates close contours.
+
+KEY TERM
+Contour interval: The vertical height difference between consecutive contour lines.
+
+Original supplementary revision notes. Not an official exam paper or a complete syllabus.
+https://mbulas-academy.netlify.app/pages/learning.html

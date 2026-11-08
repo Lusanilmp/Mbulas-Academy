@@ -1,0 +1,27 @@
+MBULA'S ACADEMY | GRADE 12 | LIFE SCIENCES
+Monohybrid inheritance
+
+LEARNING GOAL
+Use a genetic cross
+
+REVISION NOTES
+In a simple complete-dominance example, A is dominant and a is recessive. A heterozygote Aa produces A and a gametes. A Punnett square lists possible offspring combinations; probabilities do not guarantee outcomes in a small family.
+
+WORKED EXAMPLE
+Cross Aa × Aa and give the genotype ratio.
+Gametes A and a from each parent give AA, Aa, Aa, aa. Genotype ratio 1 AA : 2 Aa : 1 aa; phenotype ratio 3 dominant : 1 recessive.
+
+TRY IT YOURSELF
+In Aa × Aa, what is the probability of aa?
+1. 25%
+2. 50%
+3. 75%
+
+ANSWER AND EXPLANATION
+25% — One of four equally likely combinations is aa.
+
+KEY TERM
+Heterozygous: Having two different alleles for a particular gene.
+
+Original supplementary revision notes. Not an official exam paper or a complete syllabus.
+https://mbulas-academy.netlify.app/pages/learning.html

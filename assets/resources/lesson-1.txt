@@ -1,0 +1,27 @@
+MBULA'S ACADEMY | GRADE 8 | MATHEMATICS
+Algebraic expressions
+
+LEARNING GOAL
+Combine like terms
+
+REVISION NOTES
+A term is a number, a variable, or their product. Like terms have exactly the same variable part. Add their coefficients; do not add their powers.
+
+WORKED EXAMPLE
+Simplify 3x + 5x - 2.
+3x + 5x - 2 = (3 + 5)x - 2 = 8x - 2.
+
+TRY IT YOURSELF
+Simplify 4a + 2a.
+1. 6a
+2. 6a²
+3. 8a
+
+ANSWER AND EXPLANATION
+6a — Only the coefficients add: 4 + 2 = 6.
+
+KEY TERM
+Like terms: Terms with the same variables raised to the same powers.
+
+Original supplementary revision notes. Not an official exam paper or a complete syllabus.
+https://mbulas-academy.netlify.app/pages/learning.html

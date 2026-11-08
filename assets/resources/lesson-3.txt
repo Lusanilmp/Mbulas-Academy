@@ -1,0 +1,27 @@
+MBULA'S ACADEMY | GRADE 10 | MATHEMATICS
+Right-angle trigonometry
+
+LEARNING GOAL
+Choose the correct ratio
+
+REVISION NOTES
+Identify opposite and adjacent relative to the given angle. The hypotenuse is opposite the right angle. SOH CAH TOA: sin θ = opposite/hypotenuse; cos θ = adjacent/hypotenuse; tan θ = opposite/adjacent. Set your calculator to degrees for angles in degrees.
+
+WORKED EXAMPLE
+Find sin θ when opposite = 3 and hypotenuse = 5.
+sin θ = 3/5 = 0.6. Use inverse sine if you need θ, approximately 36.87°.
+
+TRY IT YOURSELF
+Opposite = 6 and adjacent = 8. What is tan θ?
+1. 0.75
+2. 1.33
+3. 0.6
+
+ANSWER AND EXPLANATION
+0.75 — tan θ = opposite/adjacent = 6/8 = 0.75.
+
+KEY TERM
+Hypotenuse: The longest side of a right-angled triangle, opposite the right angle.
+
+Original supplementary revision notes. Not an official exam paper or a complete syllabus.
+https://mbulas-academy.netlify.app/pages/learning.html

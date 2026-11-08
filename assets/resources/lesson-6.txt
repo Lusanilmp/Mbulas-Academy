@@ -1,0 +1,27 @@
+MBULA'S ACADEMY | GRADE 8 | GEOGRAPHY
+Map scale
+
+LEARNING GOAL
+Convert map distance
+
+REVISION NOTES
+A ratio scale compares map distance with ground distance in the same units. At 1:50 000, 1 cm represents 50 000 cm, or 0.5 km. Always show your unit conversion.
+
+WORKED EXAMPLE
+A road is 4 cm long on a 1:50 000 map. Find ground distance.
+4 × 50 000 = 200 000 cm. Divide by 100 000 cm per km: 2 km.
+
+TRY IT YOURSELF
+At 1:50 000, what distance does 6 cm represent?
+1. 3 km
+2. 30 km
+3. 0.3 km
+
+ANSWER AND EXPLANATION
+3 km — 6 × 50 000 / 100 000 = 3 km.
+
+KEY TERM
+Ratio scale: The ratio of a distance on a map to the actual distance in the same units.
+
+Original supplementary revision notes. Not an official exam paper or a complete syllabus.
+https://mbulas-academy.netlify.app/pages/learning.html

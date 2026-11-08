@@ -1,55 +1,23 @@
-# Mbula's Academy — Maths & Science Made Easy
+# Mbula’s Academy
 
-Phase 1 build: the public landing page (marketing site + demo-data-driven previews).
-Vanilla HTML/CSS/JS. No frameworks, no dependencies except two Google Fonts.
+Static HTML/CSS/JavaScript site hosted on Netlify from the main branch.
 
-## What's in this folder
+## Learning Hub
 
-- `index.html` — full landing page: hero, about/founder, subjects, grade
-  ladder + Learning Hub preview, gallery, premium (R15), private tutoring
-  form, announcements, testimonials, FAQ, location, contact, footer,
-  floating WhatsApp button, scroll-to-top.
-- `style.css` — design tokens (colors/type/spacing as CSS variables) +
-  fully responsive layout, tested down to 320px.
-- `script.js` — nav toggle, grade-ladder filtering, FAQ accordion, form
-  validation. Demo data is clearly labeled and lives at the top of the file.
-- `assets/images`, `assets/videos`, `assets/icons` — empty; drop Mbula's
-  real photos/video here and swap the `[CONTENT NEEDED]` placeholder blocks
-  in `index.html`.
+Open `pages/learning.html`. The public hub includes 16 supplementary starter lessons (Grades 8–12), worked examples, one self-check per lesson, 16 flashcards, 16 downloadable text sheets, six externally hosted videos, grade/subject/search/saved filters, completion tracking, dark mode, a focus timer, a task planner, a map-scale calculator and study notes. Video playback is click-to-load using YouTube privacy-enhanced embeds and stays on the page. External providers control availability and embedding permissions.
 
-## Auth pages (Phase 4 — frontend only)
+`assets/learning-data.js` owns lesson content; matching revision sheets are in `assets/resources/`. These are original supplementary notes, not official past papers or a complete curriculum. Official DBE and WCED collections are linked separately. Senior science subjects start at Grade 10; junior Geography supports Social Sciences. The six-video starter collection covers algebra, trigonometry, Newton’s laws, Grade 12 mapwork and Grade 12 genetics. Empty states explain unavailable subject videos.
 
-- `pages/register.html` — full validation: name, SA ID number (13 digits,
-  valid birth date, Luhn checksum), email, SA phone format, grade, password
-  strength, confirm match, terms checkbox.
-- `pages/login.html` — email + password form, "remember me", forgot-password
-  stub.
-- `pages/dashboard.html` — placeholder shell so login leads somewhere real;
-  full dashboard is Phase 7.
-- `pages/auth.js` — all the logic above, heavily commented. **It does not
-  store passwords or ID numbers anywhere, including localStorage** — only
-  first name, email and grade are kept, purely to greet the learner on the
-  dashboard stub. There is no real password check. This whole file is
-  deleted and replaced by Supabase Auth in Phase 5.
+Progress, bookmarks, tasks, notes and theme are stored in the current browser only. No account sync or server-backed learning records. Export controls allow students to keep local copies; clearing browser data clears local records. Storage failures are handled without blocking access.
 
-## What's a placeholder right now
+Existing registration and login pages remain explicitly labelled frontend demos, not real authentication. The former dashboard directs to the free hub. Premium payments are not connected; enquiries open WhatsApp and require the visitor to press Send. Do not gate paid content using localStorage. Real accounts and paid access need server-backed authentication and verified PayFast notifications.
 
-Search `index.html` for `[CONTENT NEEDED]` / `[CONFIGURATION NEEDED]`:
-founder bio, exact street address, PayFast merchant details, social media
-handles, real testimonials, and all photos/video. Nothing here was invented.
+Check syntax with `node --check assets/learning.js`, `node --check assets/learning-data.js`, `node --check script.js`. Serve the repository root for local preview.
 
-## Not built yet (next phases)
+## Resource attribution
 
-- `pages/learning.html`, `resources.html`, `classes.html`, `profile.html`,
-  `payments.html`, `admin.html`
-- Supabase auth + database (schema drafted, not implemented — `auth.js` is
-  a clearly-labeled frontend-only stand-in, see below)
-- PayFast integration (button currently shows a placeholder alert)
-- Server-side payment/attendance/admin logic
+Videos are embedded from their original Mindset and Khan Academy YouTube channels; ownership remains with the creators. No video files are redistributed or charged for. Official papers: https://www.education.gov.za/Examinations/tabid/338/Default.aspx and https://wcedeportal.westerncape.gov.za/nsc-past-exam-papers-and-memos.
 
-## Colors
+## Publishing status
 
-No brand artwork was supplied, so the red/green/blue identity was drawn
-from the subject itself (exercise-book divider tabs) rather than invented
-freely. Swap the hex values in `:root` in `style.css` if Mbula's real
-brand colors differ — everything derives from those variables.
+Prepared 8 November 2026. The connected GitHub integration denied write access (403 Resource not accessible by integration), so these source changes have not been pushed or deployed. The archive is ready for a full static deployment. Publishing an upload without updating GitHub can be overwritten by the next production branch push.

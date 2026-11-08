@@ -1,0 +1,27 @@
+MBULA'S ACADEMY | GRADE 11 | PHYSICAL SCIENCE
+Newton’s second law
+
+LEARNING GOAL
+Use the resultant force
+
+REVISION NOTES
+Newton’s second law states Fnet = ma for constant mass. Draw a free-body diagram and choose a positive direction. Add forces algebraically to find the resultant before calculating acceleration.
+
+WORKED EXAMPLE
+A 4 kg object has 20 N right and 8 N left acting on it. Find acceleration.
+Choose right positive: Fnet = 20 - 8 = 12 N. a = 12/4 = 3 m/s² right.
+
+TRY IT YOURSELF
+A net force of 18 N acts on 3 kg. Find acceleration.
+1. 54 m/s²
+2. 6 m/s²
+3. 15 m/s²
+
+ANSWER AND EXPLANATION
+6 m/s² — a = Fnet/m = 18/3 = 6 m/s², in the direction of the net force.
+
+KEY TERM
+Resultant force: The vector sum of all forces acting on an object.
+
+Original supplementary revision notes. Not an official exam paper or a complete syllabus.
+https://mbulas-academy.netlify.app/pages/learning.html

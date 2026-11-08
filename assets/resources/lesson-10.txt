@@ -1,0 +1,27 @@
+MBULA'S ACADEMY | GRADE 12 | GEOGRAPHY
+River gradients
+
+LEARNING GOAL
+Calculate and interpret gradient
+
+REVISION NOTES
+Gradient is vertical difference divided by horizontal distance. Convert both measurements to the same units. Express 1:n by dividing horizontal distance by vertical difference. A smaller n indicates a steeper slope.
+
+WORKED EXAMPLE
+A river drops 100 m over 5 km. Find its gradient as 1:n.
+5 km = 5 000 m. Gradient = 100/5 000 = 1/50, written 1:50.
+
+TRY IT YOURSELF
+A river drops 50 m over 2 km. What is the gradient?
+1. 1:40
+2. 1:4
+3. 1:400
+
+ANSWER AND EXPLANATION
+1:40 — 2 km = 2 000 m; 2 000 / 50 = 40, giving 1:40.
+
+KEY TERM
+Gradient: The ratio of vertical change to horizontal distance.
+
+Original supplementary revision notes. Not an official exam paper or a complete syllabus.
+https://mbulas-academy.netlify.app/pages/learning.html
