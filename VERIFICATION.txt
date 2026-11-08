@@ -1,0 +1,6 @@
+Verification — 8 November 2026
+
+Passed: JavaScript syntax checks; all local homepage and learning hub asset/link targets; 16 lesson records and matching revision sheets; Grades 8–12 coverage.
+Browser checked: lesson modal; correct quiz feedback; completion and persistence; grade filtering; study planner creation; map-scale result (4 cm at 1:50,000 = 2 km); flashcard reveal; focus timer start/pause; video preview and embedded YouTube player loading.
+Limits: video stream remained buffering in this cloud browser, so uninterrupted playback was not verified. Browser download event timed out; all 16 download targets and file contents passed local validation. Mobile-specific browser viewport testing and full cross-browser testing were not available. Original account pages remain frontend demos and premium checkout is not connected.
+Publishing: verify the final Netlify production deployment matches the merged GitHub commit.

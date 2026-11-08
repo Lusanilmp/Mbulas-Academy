@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /pages/login
+Disallow: /pages/register
+Disallow: /pages/dashboard
+Sitemap: https://mbulas-academy.netlify.app/sitemap.xml

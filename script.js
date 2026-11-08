@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', () => {
   // but isn't on the current poster, so it's left out until confirmed.
   const SUBJECTS = [
     { icon: '📐', name: 'Mathematics', color: 'var(--color-red)',
-      desc: 'From algebra foundations to Paper 3 problem solving, built step by step.',
+      desc: 'From algebra foundations to exam problem solving, built step by step.',
       grades: 'Grades 8–12' },
     { icon: '⚗️', name: 'Physical Science', color: 'var(--color-blue)',
       desc: 'Physics and chemistry principles explained with real, worked examples.',
@@ -31,20 +31,9 @@ document.addEventListener('DOMContentLoaded', () => {
   const GRADES = ['Grade 8', 'Grade 9', 'Grade 10', 'Grade 11', 'Grade 12'];
 
   // Demo lessons/papers per grade — replace with lessons/exam_papers table queries.
-  const HUB_DATA = {
-    'Grade 8':  { lesson: 'Intro to Algebraic Expressions', paper: '2025 Term 2 Test — Mathematics', video: 'Understanding Integers' },
-    'Grade 9':  { lesson: 'Solving Linear Equations', paper: '2025 Term 3 Test — Mathematics', video: 'Number Patterns Explained' },
-    'Grade 10': { lesson: 'Trigonometric Ratios', paper: '2024 Paper 1 — Physical Science', video: 'Introduction to Motion' },
-    'Grade 11': { lesson: 'Functions & Graphs', paper: '2024 Paper 2 — Mathematics', video: 'Newton\u2019s Laws in Practice' },
-    'Grade 12': { lesson: 'Calculus: Rates of Change', paper: '2025 Paper 1 — Mathematics', video: 'Exam Technique: Paper 1' },
-  };
-
   const ANNOUNCEMENTS = [
-    // Confirmed real notice, from the academy's own promotional material.
-    { icon: '📣', text: 'Grade 12 Matric Upgrade classes start 17 August 2026 for the November exam. Registration now open — Mon–Fri from 08:00 at Old Christ The King Primary School, Makwarela.', when: 'Confirmed' },
-    // Demo entries below — replace once the admin dashboard is connected.
-    { icon: '🔔', text: 'New Grade 12 Mathematics Paper 1 revision set now available.', when: '[DATE]' },
-    { icon: '🔔', text: 'Premium members: new memorandums added to the Learning Hub.', when: '[DATE]' },
+    { icon: '•', text: 'The free Learning Hub is open: revision notes, self-check quizzes, downloadable sheets and study tools for Grades 8–12.', when: 'Learning resources' },
+    { icon: '•', text: 'Contact the academy for current tutoring availability and matric upgrade registration details.', when: 'Enquiries' },
   ];
 
   // Clearly placeholder — do not treat as real feedback.
@@ -56,9 +45,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
   const FAQS = [
     { q: 'What grades does Mbula\u2019s Academy teach?', a: 'Grades 8 to 12, with Mathematics and Physical Science as the core focus.' },
-    { q: 'Which subjects are offered?', a: 'Mathematics, Physical Science, Chemistry, Geography and Life Sciences, with more subjects planned.' },
-    { q: 'How do I register?', a: 'Use the "Join the Academy" button to start registration. [Full registration flow ships in Phase 4.]' },
-    { q: 'How does the R15 subscription work?', a: 'R15 unlocks premium resources — custom exam questions, revision packs and full memorandums. Payment is processed through PayFast.' },
+    { q: 'Which subjects are offered?', a: 'Mathematics, Physical Science, Geography and Life Sciences. Geography for Grades 8–9 supports Social Sciences; Physical Science and Life Sciences resources start at Grade 10.' },
+    { q: 'How do I register?', a: 'The free Learning Hub is open without signing in. For class registration and private tutoring, contact the academy on WhatsApp.' },
+    { q: 'How does the R15 subscription work?', a: 'The proposed premium plan is R15 per month. Online checkout is not connected yet. Contact the academy to enquire; free Learning Hub materials are available now.' },
     { q: 'Where is the academy located?', a: 'Old Christ The King Primary School, Makwarela. Use the "Get Directions" button in the Find Us section.' },
     { q: 'How do I contact Mbula?', a: 'Call 071 162 4028 or message the academy on WhatsApp using the floating chat button.' },
     { q: 'Can I request private tutoring?', a: 'Yes — use the Private Tutoring form to describe what you need help with and your subject and grade.' },
@@ -98,25 +87,12 @@ document.addEventListener('DOMContentLoaded', () => {
   const hubPreview = document.getElementById('hubPreview');
 
   function renderHub(grade) {
-    const data = HUB_DATA[grade];
-    if (!hubPreview || !data) return;
+    if (!hubPreview) return;
+    const g = grade.replace('Grade ', '');
     hubPreview.innerHTML = `
-      <div class="hub-card">
-        <span class="hub-card-label">Latest lesson</span>
-        <h4>${data.lesson}</h4>
-        <p>${grade} \u00b7 Mathematics</p>
-      </div>
-      <div class="hub-card">
-        <span class="hub-card-label">Exam paper</span>
-        <h4>${data.paper}</h4>
-        <p>View or download from the full Learning Hub.</p>
-      </div>
-      <div class="hub-card">
-        <span class="hub-card-label">Recommended video</span>
-        <h4>${data.video}</h4>
-        <p>Because you're in ${grade}.</p>
-      </div>
-    `;
+      <div class="hub-card"><span class="hub-card-label">Read &amp; practise</span><h4>${grade} revision lessons</h4><p>Clear explanations, worked examples and self-check questions.</p><a class="btn btn-outline" href="pages/learning.html?grade=${g}">Open lessons</a></div>
+      <div class="hub-card"><span class="hub-card-label">Take it with you</span><h4>Download revision notes</h4><p>Keep a text copy for studying without a connection.</p><a class="btn btn-outline" href="pages/learning.html?grade=${g}&tab=resources">Get downloads</a></div>
+      <div class="hub-card"><span class="hub-card-label">Watch &amp; learn</span><h4>Video learning library</h4><p>Preview curated lessons and watch inside the academy.</p><a class="btn btn-outline" href="pages/learning.html?grade=${g}&tab=videos">Browse videos</a></div>`;
   }
 
   if (ladder) {
@@ -191,15 +167,17 @@ document.addEventListener('DOMContentLoaded', () => {
       return;
     }
 
-    // DEMO ONLY — no backend connected yet. Phase 5 posts to tutoring_requests.
-    tutStatus.textContent = `Thanks! Your ${subject} request for ${grade} has been noted. (Demo — not yet sent to Mbula.)`;
+    const url = 'https://wa.me/27711624028?text=' + encodeURIComponent(`Hi Mbula's Academy, I would like private tutoring.\nSubject: ${subject}\nGrade: ${grade}\nHelp needed: ${message}`);
+    window.open(url, '_blank', 'noopener');
+    tutStatus.replaceChildren();
+    const fallback = document.createElement('a'); fallback.href = url; fallback.target = '_blank'; fallback.rel = 'noopener'; fallback.textContent = 'Open your request in WhatsApp and press Send.'; tutStatus.append(fallback);
     tutStatus.className = 'form-status success';
     tutForm.reset();
   });
 
   /* ---------------- PREMIUM SUBSCRIBE (demo placeholder) ---------------- */
   document.getElementById('subscribeBtn')?.addEventListener('click', () => {
-    alert('PayFast checkout is not yet connected. [CONFIGURATION NEEDED: PayFast merchant ID, verified server-side before granting premium access.]');
+    window.open('https://wa.me/27711624028?text=Hi%20Mbula%27s%20Academy%2C%20please%20tell%20me%20about%20the%20R15%20premium%20plan.', '_blank', 'noopener');
   });
 
   /* ---------------- SCROLL TO TOP ---------------- */
