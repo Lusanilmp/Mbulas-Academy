@@ -1,0 +1,27 @@
+MBULA'S ACADEMY | GRADE 10 | PHYSICAL SCIENCE
+Speed and velocity
+
+LEARNING GOAL
+Separate distance from displacement
+
+REVISION NOTES
+Distance is the total path travelled; displacement is change in position with a direction. Average speed = total distance/time. Average velocity = displacement/time. Convert time to seconds and distance to metres for SI units.
+
+WORKED EXAMPLE
+Walk 30 m east then 10 m west in 20 s. Find average speed and velocity.
+Distance = 40 m, so speed = 2 m/s. Displacement = 20 m east, so velocity = 1 m/s east.
+
+TRY IT YOURSELF
+A runner travels 100 m in 20 s. What is average speed?
+1. 5 m/s
+2. 0.2 m/s
+3. 120 m/s
+
+ANSWER AND EXPLANATION
+5 m/s — Average speed = 100/20 = 5 m/s.
+
+KEY TERM
+Displacement: Change in position, including direction.
+
+Original supplementary revision notes. Not an official exam paper or a complete syllabus.
+https://mbulas-academy.netlify.app/pages/learning.html

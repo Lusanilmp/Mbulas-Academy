@@ -1,0 +1,27 @@
+MBULA'S ACADEMY | GRADE 11 | MATHEMATICS
+Quadratic functions
+
+LEARNING GOAL
+Read a parabola
+
+REVISION NOTES
+For y = a(x - p)² + q, the turning point is (p, q), and the axis of symmetry is x = p. A positive a opens upwards; a negative a opens downwards. Find intercepts by setting x = 0 or y = 0.
+
+WORKED EXAMPLE
+Describe y = (x - 2)² - 9.
+Turning point (2, -9); axis x = 2; opens upwards. At y = 0: (x - 2)² = 9, so x = -1 or 5.
+
+TRY IT YOURSELF
+What is the turning point of y = (x + 1)² - 4?
+1. (1, -4)
+2. (-1, -4)
+3. (-1, 4)
+
+ANSWER AND EXPLANATION
+(-1, -4) — Write x + 1 as x - (-1), so p = -1 and q = -4.
+
+KEY TERM
+Axis of symmetry: The vertical line through a parabola’s turning point.
+
+Original supplementary revision notes. Not an official exam paper or a complete syllabus.
+https://mbulas-academy.netlify.app/pages/learning.html

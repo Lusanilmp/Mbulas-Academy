@@ -1,0 +1,27 @@
+MBULA'S ACADEMY | GRADE 9 | MATHEMATICS
+Linear equations
+
+LEARNING GOAL
+Keep both sides balanced
+
+REVISION NOTES
+An equation states that two expressions are equal. Undo addition or subtraction first, then undo multiplication or division. Apply each operation to both sides and check your answer by substitution.
+
+WORKED EXAMPLE
+Solve 3x + 7 = 22.
+Subtract 7: 3x = 15. Divide by 3: x = 5. Check: 3(5) + 7 = 22.
+
+TRY IT YOURSELF
+Solve 2x + 5 = 17.
+1. x = 11
+2. x = 6
+3. x = 24
+
+ANSWER AND EXPLANATION
+x = 6 — Subtract 5 from both sides, then divide by 2.
+
+KEY TERM
+Inverse operation: An operation that undoes another, such as subtraction undoing addition.
+
+Original supplementary revision notes. Not an official exam paper or a complete syllabus.
+https://mbulas-academy.netlify.app/pages/learning.html

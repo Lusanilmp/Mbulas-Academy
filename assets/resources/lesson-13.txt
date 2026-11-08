@@ -1,0 +1,27 @@
+MBULA'S ACADEMY | GRADE 12 | PHYSICAL SCIENCE
+Momentum and impulse
+
+LEARNING GOAL
+Link force and momentum
+
+REVISION NOTES
+Momentum is p = mv and has direction. Impulse is Fnet Δt = Δp. In an isolated system, total momentum is conserved. Choose a sign convention and keep it throughout the calculation.
+
+WORKED EXAMPLE
+A 2 kg trolley changes velocity from 3 m/s east to 5 m/s east in 1 s. Find average net force.
+Δp = 2(5 - 3) = 4 kg·m/s east. Fnet = Δp/Δt = 4 N east.
+
+TRY IT YOURSELF
+A 3 kg object travels at 4 m/s east. What is its momentum?
+1. 12 kg·m/s east
+2. 7 kg·m/s east
+3. 1.33 kg·m/s east
+
+ANSWER AND EXPLANATION
+12 kg·m/s east — p = mv = 3 × 4 = 12 kg·m/s east.
+
+KEY TERM
+Impulse: The change in momentum, equal to average net force multiplied by time.
+
+Original supplementary revision notes. Not an official exam paper or a complete syllabus.
+https://mbulas-academy.netlify.app/pages/learning.html

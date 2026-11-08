@@ -1,0 +1,27 @@
+MBULA'S ACADEMY | GRADE 11 | GEOGRAPHY
+Development indicators
+
+LEARNING GOAL
+Compare evidence fairly
+
+REVISION NOTES
+GDP per capita is economic output divided by population. It is an average and may hide inequality. Use economic measures together with health, education and access to services rather than treating a single indicator as the whole picture.
+
+WORKED EXAMPLE
+Country A has higher GDP per capita but lower life expectancy than B. What can you conclude?
+A has higher average economic output, but this does not prove better health outcomes or equal access to resources.
+
+TRY IT YOURSELF
+Why can GDP per capita hide inequality?
+1. It is an average
+2. It counts only children
+3. It measures rainfall
+
+ANSWER AND EXPLANATION
+It is an average — An average does not show how income and resources are distributed.
+
+KEY TERM
+GDP per capita: Economic output per person, calculated as GDP divided by population.
+
+Original supplementary revision notes. Not an official exam paper or a complete syllabus.
+https://mbulas-academy.netlify.app/pages/learning.html

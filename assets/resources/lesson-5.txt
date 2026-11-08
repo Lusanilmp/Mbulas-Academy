@@ -1,0 +1,27 @@
+MBULA'S ACADEMY | GRADE 12 | MATHEMATICS
+Differential calculus
+
+LEARNING GOAL
+Find a tangent gradient
+
+REVISION NOTES
+The derivative gives the instantaneous rate of change. For a polynomial term axⁿ, the derivative is anxⁿ⁻¹. The derivative of a constant is zero. A tangent at x = k has gradient f′(k).
+
+WORKED EXAMPLE
+Find the tangent to f(x) = x² + 3x at x = 1.
+f′(x) = 2x + 3, so m = 5. The point is (1, 4). Thus y - 4 = 5(x - 1), giving y = 5x - 1.
+
+TRY IT YOURSELF
+Differentiate f(x) = 3x² - 4x + 7.
+1. 6x - 4
+2. 3x - 4
+3. 6x + 7
+
+ANSWER AND EXPLANATION
+6x - 4 — Apply the power rule term by term; the constant 7 differentiates to 0.
+
+KEY TERM
+Derivative: A function describing the instantaneous rate of change.
+
+Original supplementary revision notes. Not an official exam paper or a complete syllabus.
+https://mbulas-academy.netlify.app/pages/learning.html
